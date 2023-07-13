@@ -1,0 +1,11 @@
+.brand{
+    
+    height: 150px;
+    font-size: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 40, 36);
+    color : aquamarine;
+}

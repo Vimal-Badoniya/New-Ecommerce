@@ -1,0 +1,63 @@
+.div1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.div2 {
+  max-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0;
+  overflow-y: auto;
+}
+
+.div3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  height: 40px;
+  font-size: x-large;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.removebtn {
+  justify-self: end;
+  background-color: aquamarine;
+  border-radius: 8px;
+  border: 2px solid black;
+  outline: none;
+  font-size: large;
+}
+.removebtn:hover{
+    background-color: rgb(4, 68, 21);
+    color: aquamarine;
+    border: 2px solid aquamarine;
+}
+.li1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  width: 400px;
+}
+
+.div4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  height: 40px;
+}
+.div5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+
+.textcolor{
+    color: aquamarine;
+}

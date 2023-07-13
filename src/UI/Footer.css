@@ -1,0 +1,28 @@
+.footerdiv {
+  background-color: rgb(2, 40, 36);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: xx-large;
+  height: 220px;
+  color: aquamarine;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.btn {
+  display: inline-flex;
+  flex-wrap: wrap;
+  font-size: 26px;
+  border: none;
+  border-radius: 25%;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0;
+  background-color: aquamarine;
+}

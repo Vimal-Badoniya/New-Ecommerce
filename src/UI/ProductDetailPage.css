@@ -1,0 +1,25 @@
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aquamarine;
+    text-decoration: underline;
+
+}
+
+.button1 {
+    font-size: large;
+    border-radius: 8px;
+   width: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+  }
+  .button1:hover {
+    background-color: rgb(4, 68, 21);
+    color: aquamarine;
+    border: 2px solid aquamarine;
+  }

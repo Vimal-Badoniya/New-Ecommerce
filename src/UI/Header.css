@@ -1,0 +1,49 @@
+.ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(4, 68, 21);
+  font-size: larger;
+  margin: 0;
+}
+.headercontainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.li {
+  display: inline-flex;
+  margin: 10px;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+}
+.a {
+  display: inline-flex;
+  color: aquamarine;
+  justify-content: center;
+  text-decoration: none;
+}
+.a.active {
+  text-decoration: underline;
+}
+.white-icon {
+  color: antiquewhite;
+  margin: 8px;
+  justify-self: center;
+}
+
+.button {
+  font-size: large;
+  border-radius: 8px;
+  right: 0%;
+  background-color: aquamarine;
+}
+.button:hover {
+  background-color: rgb(4, 68, 21);
+  color: aquamarine;
+  border: 2px solid aquamarine;
+}

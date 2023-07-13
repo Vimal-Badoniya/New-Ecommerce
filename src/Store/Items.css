@@ -1,0 +1,59 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  column-gap: 200px;
+}
+
+.buttn {
+  background-color: darkcyan;
+  font-size: larger;
+  border-radius: 8px;
+  outline: none;
+  border: 2px dotted black;
+  justify-content: center;
+  display: flex;
+}
+
+.buttn:hover {
+  background-color: blue;
+}
+.center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: aquamarine;
+  font-family: cursive, sans-serif;
+}
+.buttonCart {
+  background-color: aquamarine;
+  font-size: large;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.buttonCart:hover {
+  background-color: rgb(4, 68, 21);
+  color: aquamarine;
+  border: 2px solid aquamarine;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 0;
+}
+
+.price {
+  border: 2px solid black;
+  padding: 0 5px;
+  border-radius: 10px;
+  background-color: aquamarine;
+}
+
+.divmargin {
+  margin: 10px;
+}
+
+.title {
+  color: aquamarine;
+}

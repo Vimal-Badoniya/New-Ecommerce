@@ -1,0 +1,13 @@
+.customButton{
+    background-color: aquamarine;
+    font-size: large;
+    border: 2px solid black;
+    outline: navy;
+    border-radius: 8px;
+}
+
+.customButton:hover{
+    background-color: rgb(4, 68, 21);
+    border: 2px solid aquamarine;
+    color: aquamarine;
+}

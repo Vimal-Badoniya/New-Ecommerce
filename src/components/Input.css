@@ -1,0 +1,25 @@
+.form-input{
+    height: 40px;
+    width: 95%;
+    border-radius: 10px;
+    margin: 3px 8px;
+    background-color: rgb(4, 68, 21);
+    border: 2px solid aquamarine;
+    outline: aquamarine;
+    color: aquamarine;
+    font-size: large;
+    appearance: textfield;
+}
+
+.form-input::-webkit-inner-spin-button,
+.form-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-label{
+    font-size: larger;
+    font-weight: bold;
+    margin: 3px 8px;
+}
+

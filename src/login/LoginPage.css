@@ -1,0 +1,6 @@
+.header-center{
+    display: flex;
+    color:aquamarine ;
+    align-items: center;
+    justify-content: center;
+}
